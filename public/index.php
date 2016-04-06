@@ -7,6 +7,9 @@
  * @author   Taylor Otwell <taylorotwell@gmail.com>
  */
 
+header("Content-Type:application/json");
+header("Access-Control-Allow-Origin:*");
+
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
